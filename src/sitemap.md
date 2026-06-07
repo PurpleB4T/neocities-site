@@ -1,0 +1,25 @@
+---
+layout: layout/base.njk
+title: sitemap
+description: sitemap for easy navigation on mobile
+permalink: sitemap.html
+---
+
+# Sitemap
+For easier navigation if you're not sure where to find things! 
+
+## About 
+- [About Me](/about/about)
+- [Now](/about/now)
+
+## Site Specific
+- [About this site](/about_site/about_site)
+- [Changelog](/about_site/about_site.html#Changelog)
+- [Plans](/about_site/plans)
+- [Credits](/about_site/credits)
+
+## Rescourses
+- [Bookmarks](/resources/bookmarks)
+
+## Misc
+- [Sitemap](/sitemap) You are here

@@ -28,7 +28,7 @@
       <header>
 
         <div class="header-content">
-            <div class="header-title">LUNACYTIE'S PAGE</div>
+            <div class="header-title"><a href="/">LUNACYTIE'S PAGE</a></div>
 
         </div>
       </header>
@@ -44,7 +44,7 @@
 
         <div class="sidebar-section">
             <!-- USE PARTIALS TO INCLUDE MORE CONTENT IN THE LEFT SIDEBAR-->
-            {% include "left_sidebar/side_test.njk" %}
+            {% include "left_sidebar/main-left_sidebar.njk" %}
         </div>
       </aside>
 
@@ -54,11 +54,10 @@
       <!-- =============================================== -->
 
       <aside class="right-sidebar">
-
-            <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Necessit atibus perferendis inventore tempore vel optio similique blanditiis quasi quam?</p>
+        <div class="sidebar-section">
+          <!-- USE PARTIALS TO INCLUDE MORE CONTENT IN THE RIGHT SIDEBAR-->
+          {% include "right_sidebar/right_sidebar_main.njk" %}
+          
         </div>
 
       </aside>
@@ -72,6 +71,10 @@
          
 
         {{ content | safe }}
+
+    
+        {% include "partials/Comment_Section.njk" %}
+        
 
 
       </main>

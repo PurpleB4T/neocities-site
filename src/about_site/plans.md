@@ -2,7 +2,7 @@
 layout: layout/base.njk
 title: Plans
 description: about site for the website
-permalink: /about/plans.html
+permalink: /about_site/plans.html
 ---
 
 # Plans for the Site
@@ -15,8 +15,12 @@ Better something than nothing!
     -  decorations
     - header
 -  media log
+-  neighbours/ other sites page
 -  TTRPG page
 -  OC Wiki
+   -  World page
+   -  Character Gallery
+   -  OC pages
 -  Art Gallery
 -  Resource Page
 -  Shrines

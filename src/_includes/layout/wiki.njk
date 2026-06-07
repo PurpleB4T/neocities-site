@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--FAVICON-->
+    <link href="../images/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- CSS -->
+     <link href="../styles/wiki.css" rel="stylesheet" />
+
+
+    <!-- Title of the Page -->
+
+    <title>{{ title }}</title>
+  </head>
+  <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+    <a href="#content" id="skip-to-content-link">Skip to content</a>
+
+    <div class="layout">    
+
+        <!-- =============================================== -->
+      <!-- HEADER -->
+      <!-- =============================================== -->
+
+      <header>
+
+        <div class="header-content">
+            <div class="header-title">LUNACYTIE'S PAGE</div>
+
+        </div>
+      </header>
+
+        <!-- =============================================== -->
+      <!-- LEFT SIDEBAR -->
+      <!-- =============================================== -->   
+       
+      <aside class="left-sidebar">
+
+        <!-- NAVIGATION -->
+        <nav>{% include "partials/wiki_navbar.njk" %}</nav>
+
+        <div class="sidebar-section">
+            <!-- USE PARTIALS TO INCLUDE MORE CONTENT IN THE LEFT SIDEBAR-->
+            {% include "left_sidebar/side_test.njk" %}
+        </div>
+      </aside>
+
+  <body>
+
+
+    <main id="content">
+        
+        {{ content | safe }}
+    
+    </main>
+
+     <!-- ========================================-->
+      <!-- FOOTER -->
+      <!-- ========================================-->
+
+      <footer>
+
+        {% include "partials/footer.njk" %}
+
+      </footer>  </body>
+</html>
