@@ -5,9 +5,15 @@ description: about site for the website
 permalink: /about_site/about_site.html
 ---
 
+<div class="section-container">
+
 # About this site
 Last year I got into personal sites through discovering Neocities on Artfight. Seeing all the cool sites really inspired me to join in (and at least try to make my own site).\
 I mainly wanted to create this space as a place to share my OCs and art, my TTRPG thoughts (as well as homebrew content) and just to ramble about things I like.
+
+</div>
+
+<div class="section-container">
 
 ## History on the Internet 
 
@@ -15,7 +21,11 @@ I **first made contact** with the internet when I got my grandpa's old laptop, b
 I spent a lot of time on a german search engine for kids called "Blinde Kuh" (which sadly lost support back in 2024 I just found out). I used to look at the kids social media sites provided by various different german kids TV channels at the time, too.\
 **Flashgame sites** were my real home, though. I remember booting up my laptop, and playing these games for ungodly amounts of time each saturday and sunday. My favourite was a very interactive hair styling game (you actually could cut, dye and style each strand, instead of just selecting premade hairstyles).\
 I would look through the old Sims 3 Community page, look at people's sims and get my CC from their creations. Youtube was discovered through Avatar the Last Airbender edits to Otto Walkes songs. Later I would watch mermaiding videos with great obsession.\
-My interests usually led to new discoveries on the internet. The Sims made me search old forum style sites for new information on the mermaids in Island Living (even though the screenshots and info were all the same), my sudden obsession with Sonic lead me to discover Deviantart. I still have my old account too.\
+My interests usually led to new discoveries on the internet. The Sims made me search old forum style sites for new information on the mermaids in Island Living (even though the screenshots and info were all the same), my sudden obsession with Sonic lead me to discover Deviantart. I still have my old account too.
+
+</div>
+<div class="section-container">
+
 ## Social Media 
 Most of my early social media use was **for the games**. I made a facebook account just to play *Pet Paradise* with friends. Facebook was my second choice, because the german social media for high school students (or uni students) required an invitation.\
 *Deviantart* really was my first proper interaction with social media. I would read comments, journals, lurk in clubs. I curated by favourites meticulously.\
@@ -41,12 +51,17 @@ I also watched a lot of youtube, basically from when I discovered it. Back in th
 I was always **too shy** to really interact or post on social media, so most of them were very passive for me. I guess it is good in some ways, it means I loose less when I stop using them as much.\
 With Musk buying up twitter, I spent less and less time on it, before leaving for **bluesky**. Most artists I followed moved there, so I did, too. I kind of like bluesky, not because of it's features, but because it's boring. I really just check for 3 minutes and then close out.
 
+</div>
 
+
+<div class="section-container">
 
 ## The Indieweb
 Around that time I found **neocities** and it's many personal sites. It came at a perfect time, I want to express myself, but social media always felt like a prison. The ability to express yourself freely by making your own site appealed to me. It feels so much safer, so much nicer. 
 
+</div>
 
+<div class="section-container">
 <h2 id="Changelog">Changelog</h2>
 
 <ul>
@@ -54,5 +69,7 @@ Around that time I found **neocities** and it's many personal sites. It came at 
      <li><strong>{{ item.date }}:</strong> {{ item.text }}</li>
     {% endfor %} 
 </ul>
+
+</div>
 
 

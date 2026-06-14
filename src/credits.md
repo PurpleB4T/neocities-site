@@ -5,6 +5,8 @@ title: Credits
 description: Credits page
 ---
 
+<div class="section-container">
+
 # {{ Credits }}
 
 ## Website/ Software details
@@ -26,3 +28,5 @@ description: Credits page
   - headings: [SF Pixelate](https://www.cdnfonts.com/sf-pixelate.font)
   - main text: Courir New, monospace
 - [Moonlight-pendent13 Star Potion](https://www.deviantart.com/moonlight-pendent13/art/Star-Potion-586207079) for lists 
+
+</div>

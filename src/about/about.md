@@ -56,6 +56,7 @@ div.picrew {
 }
 </style>
 
+<div class="section-container">
 <div>
 <div class="profile-pic">
 <img src="https://file.garden/aiPRUubAgXvOAB-W/Profile/Profile%20Picture.webp" alt="Profile Picture" style="width:300px;">
@@ -70,15 +71,17 @@ I always lurked on social media, and never really posted my own work. It felt ve
 I jump between interests all the time, so I will most likely talk/ post about whatever comes to mind. But I am primarily obsessed with *my OC Eos*, who I draw a lot (I am planning to create a wiki).\
 I also enjoy *worldbuilding*, *TTRPGs* and *video games*. I also started reading more again recently.
 
-<hr>
+</div>
+</div>
 
+<div class="section-container" style="padding-bottom: 50px;">
 <div class="facts">
 <h3> Facts </h3>
 <ul>
 <li> <strong>25+</strong></li> 
 <li> <strong>pronouns:</strong>she/her</li>
-<li> <strong>languages:</strong>german, english and some japanese</li>
-<li> <strong>favourite colours:</strong>purple (absolute fave), pastels, neons, basically everything</li>
+<li> <strong>languages:</strong>german, english and some <span class="tooltip">japanese<span class="tooltiptext">I technically learned it... but I don't speak that much anymore...</span></span></li>
+<li> <strong>favourite colours:</strong> purple (absolute fave), pastels, neons, basically everything</li>
 <li> <strong>hobbies:</strong>drawing, TTRPGs, character writing, gaming, collaborative story telling</li>
 
 </div>
@@ -97,5 +100,10 @@ I also enjoy *worldbuilding*, *TTRPGs* and *video games*. I also started reading
 
 <p> More will be added in the future, but these really are the places I am most active.</p>
 
-<hr>
+
+
+
 </div>
+</div>
+
+

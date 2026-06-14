@@ -12,7 +12,7 @@
   --background-color: #410694; 
   --content-background-color: #200349;
   --sidebar-background-color: #200349;
-
+  --transparent-background: rgba(187, 144, 248, 0.123);
   /* Text Colors: */
   --text-color: #78e3e6;
   --sidebar-text-color: #78e3e6;
@@ -139,7 +139,7 @@ main li::before {
 /* -------------------------------------------------------- */
 
 .layout {
-  width: 1500px;
+  width: 1400px;
   display: grid;
   grid-gap: var(--margin);
   grid-template: "header header header" auto "leftSidebar main rightSidebar" auto "footer footer footer" auto / var(--sidebar-width) auto var(--sidebar-width);
@@ -150,6 +150,7 @@ main {
   grid-area: main;
   overflow-y: auto;
   padding: var(--padding);
+  padding-top: 40px;
   background: var(--content-background-color);
   border: var(--border);
   border-radius: var(--round-borders);
@@ -162,13 +163,11 @@ main {
 header {
   grid-area: header;
   font-size: 1.2em;
-  border: var(--border);
-  border-radius: var(--round-borders);
-  background: var(--content-background-color);
+  margin-bottom: -60px;
+  z-index: 1;
 }
 
 .header-content {
-  padding: var(--padding);
   text-align: center;
 }
 
@@ -224,10 +223,12 @@ aside {
   font-size: 1.2em;
   font-family: var(--heading-font);
   color: var(--link-color-hover);
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .sidebar-section:not(:last-child) {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 .sidebar-section ul,
@@ -613,3 +614,126 @@ main h6 {
     font-size: 1rem;
   }
 }
+
+
+/* -------------------------------------------------------- */
+/* TOOLTIPS */
+/* -------------------------------------------------------- */
+
+/* TOOLTIP CONTAINER */ 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: var(--border);
+}
+
+/* TOOLTIP TEXT */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: fit-content;
+  background-color: var(--content-background-color);
+  color:var(--text-color);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+
+opacity: 0;
+transition: opacity 0.3s;
+}
+
+/* TOOLTIP ARROW */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--content-background-color) transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*----------------------------------------------- */
+/*TEXT AREA */
+
+textarea{
+  background: var(--content-background-color);
+  border: var(--border);
+  border-radius: 10px;
+  color: var(--text-color);
+  padding: 6px;
+}
+
+/* ---------------------------------------------------- */
+/* --- NEIGHBOURS ---*/
+/* ---------------------------------------------------- */
+
+/*NEIGHBOURHOOD CONTAINER */
+
+.neighbours {
+  padding: 10px;
+  margin: 15px auto;
+  /*border: var(--border);*/
+  border-radius: var(--round-borders);
+  
+  max-width: 85%;
+  display: block;
+  background-color: var(--transparent-background);
+}
+/*
+.neighbours-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+  */
+/*
+.neighbours-container a{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+  */
+
+  .neighbours .neighbours-container{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+  label {
+    font-size: 0.8rem; 
+    text-align: center;
+    color: var(--text-accent);
+  }
+
+  /* --------------------------------------- */
+  /* SECTION CONTAINER */
+  /* ---------------------------------------*/
+
+  /* use as a box to contain important sections in */
+  .section-container{
+    border: var(--border);
+    border-radius: var(--round-borders);
+    padding: var(--padding);
+    margin-bottom: var(--padding);
+  }

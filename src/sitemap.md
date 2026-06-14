@@ -5,6 +5,8 @@ description: sitemap for easy navigation on mobile
 permalink: sitemap.html
 ---
 
+<div class="section-container">
+
 # Sitemap
 For easier navigation if you're not sure where to find things! 
 
@@ -17,9 +19,12 @@ For easier navigation if you're not sure where to find things!
 - [Changelog](/about_site/about_site.html#Changelog)
 - [Plans](/about_site/plans)
 - [Credits](/about_site/credits)
+- [Neighbours](/about_site/neighbours)
 
 ## Rescourses
 - [Bookmarks](/resources/bookmarks)
 
 ## Misc
 - [Sitemap](/sitemap) You are here
+
+</div>
