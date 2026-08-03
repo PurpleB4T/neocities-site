@@ -99,11 +99,85 @@ I also enjoy *worldbuilding*, *TTRPGs* and *video games*. I also started reading
 <li><a href="https://artfight.net/~lunacytie"target="_blank">Artifight</a></li>
 
 <p> More will be added in the future, but these really are the places I am most active.</p>
-
+</div>
 
 
 
 </div>
+
+<div class="section-container">
+<div style="display:flex; flex-wrap: wrap; gap:20px;">
+    <div>
+
+## HOBBIES
+
+ <div style="max-height:200px; overflow:scroll;">
+
+- **drawing**
+- writing
+- playing TTRPGS
+- gaming
+- **listening to music**
+- nail art
+
 </div>
+
+
+</div>
+
+<div>
+
+## LIKES
+
+ <div style="max-height:200px; overflow:scroll; padding-right: 10px;">
+
+- **purple**
+- **carbonara**
+- **"toxically femme characters"**
+- markdown
+- stationary
+- spreadsheets
+- small text
+- **cats**
+- dogs
+- rounded corners
+- random facts
+- dragons
+- **unicorns**
+- bats
+- night sky
+- tea
+- OSTs 
+- **chocolate**
+- dot grids
+- "shapey" art-styles
+- **merfolk**
+</div>
+
+</div>
+
+<div>
+
+## DISLIKES
+
+ <div style="max-height:200px; overflow:scroll; max-width:300px">
+
+ - passive aggressiveness
+ - **Clip Studio Paint**
+ - grocery shopping
+ - travelling without noise cancelling headphones
+ - winter
+ - vapes
+ - **alcohol**
+ - body type "trends"
+ - productivicty culture
+ - shipping discourse 
+</div>
+
+</div>
+</div>
+</div>
+
+
 
 

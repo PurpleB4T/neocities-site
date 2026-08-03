@@ -56,7 +56,12 @@ At the moment there isn't much... but totally feel free to add me to your site a
 
 <div class="neighbours">
 <h2 style="text-align: center;">Neighbours</h2>
-    <div class="neighbours-container"> THERE IS NOTHING HERE YET....</div>
+
+
+<div class="neighbours-container">
+<span style="text-align: center;">People I have traded buttons with, follow mutually etc.</span>
+
+<a href="https://zhongvie.neocities.org/"><img src="https://file.garden/Zq0xOX6Iv3i3b1te/Neocities/sylvieButton.gif" alt="zhongvie button" loading="lazy"></a></div>
 </div>
 
 </div>

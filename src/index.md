@@ -18,6 +18,33 @@ I would love to find some neighbours, so if you're interested sign my [guestbook
 
 </div>
 
+<div class="section-container">
+
+## Update - 2026-08-03
+Hi! Hello! 
+
+It's been a short bit... but now that *Artfight* is over. I can focus on this site again (at least a bit more).\
+My current main goal is to make a blog section (where I hopefully will also post my Artfight 2026 retrospective soon) as well as an image gallery. But figuring the latter out might take a bit... so... hmh.\
+I wanted to make this place for my art and I still haven't really uploaded anything properly, whoopsie... 
+
+Another thing is that the comments haven't been working, so I will temporarily get rid of them. I wanted to change a few things about what pages they are on anyways, so... I'll just have to see what I can do to fix that issue. I might have just fucked up somewhere in the setup process (which wouldn't surprise me honestly...). I just noticed randomly lol.
+
+I also really need to figure out **what I actually want** on this main page...
+
+Well, I'm writing this as I'm procrastinating heavily on prepping my Daggerheart Session today... 
+
+### What I've been up to
+Obviously I've been preoccupied with *Artfight* starting mid June until now (even if I wasn't as productive as I wanted to be...) and art in general.\
+Also, the last month has been hell in terms of workload at my job, and so I really did not have a lot of energy in the evening. And the energy I did have I mostly spent drawing.
+
+I also joined [Flight Rising](https://www1.flightrising.com/clan-profile/761496) in June and have been checking in daily since. I wasn't sure if I'd enjoy it at first but now I'm fully sold.
+
+Otherwise I started doing more solo-play for TTRPGs, both in Daggerheart and a weird, very basic version of Cortex which I'm adding new rules and mechanics to as I play (I really only played like 3 1/2 sessions though).\
+I also joined a Daggerheart campaign a friend is running, where I play a Druid.\ 
+
+
+</div>
+
 
 <div class="section-container">
 

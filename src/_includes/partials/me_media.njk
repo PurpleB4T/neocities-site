@@ -1,0 +1,59 @@
+<div class="section-container">
+    <h2>Media</h2>
+    <div class="media-tab">
+        <button class="tablinks" onclick="openTab(event, 'Games')">Games</button>
+        <button class="tablinks" onclick="openTab(event, 'Characters')">Characters</button>
+        <button class="tablinks" onclick="openTab(event, 'Media')">Media</button>
+        <button class="tablinks" onclick="openTab(event, 'Music')">Music</button>
+        <button class="tablinks" onclick="openTab(event, 'Artists')">Artists</button>
+    </div>
+
+    
+    
+
+</div>
+<div id="Games" class="tabcontent">
+        <h3>Games</h3>
+        <p> Test</p>
+    </div>
+
+    <div id="Characters" class="tabcontent">
+        <h3>Characters</h3>
+        <p> Test</p>
+    </div>
+    <div id="Media" class="tabcontent">
+        <h3>Media</h3>
+        <p> Test</p>
+    </div>
+    <div id="Music" class="tabcontent">
+        <h3>Music</h3>
+        <p> Test</p>
+    </div>
+    <div id="Artists" class="tabcontent">
+        <h3>Artists</h3>
+        <p> Test</p>
+    </div>
+    <div id="Characters" class="tabcontent">
+        <h3>Test</h3>
+        <p> Test</p>
+    </div>
+
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        dcoument.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+}
+</script>
+
+
+
+
