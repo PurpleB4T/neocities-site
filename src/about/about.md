@@ -95,8 +95,9 @@ I also enjoy *worldbuilding*, *TTRPGs* and *video games*. I also started reading
 <ul>
 <li><a href="https://neocities.org/site/lunacytie" target="_blank">Neocities Profile</a></li>
 <li><a href="https://bsky.app/profile/lunacytie.bsky.social"target="_blank">Bluesky</a> (not very active)</li>
-<li><a href="https://lunacytie.bearblog.dev/"target="_blank">Bear Blog</a></li>
+<!-- <li><a href="https://lunacytie.bearblog.dev/"target="_blank">Bear Blog</a></li> -->
 <li><a href="https://artfight.net/~lunacytie"target="_blank">Artifight</a></li>
+<li><a href="https://www1.flightrising.com/clan-profile/761496" target="_blank">Flight Rising</a></li>
 
 <p> More will be added in the future, but these really are the places I am most active.</p>
 </div>

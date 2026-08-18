@@ -21,6 +21,10 @@ For easier navigation if you're not sure where to find things!
 - [Credits](/about_site/credits)
 - [Neighbours](/about_site/neighbours)
 
+## Art
+- [Gallery](/art/gallery)
+- [Art and Stationary Faves](/art/resources/resources)
+
 ## Rescourses
 - [Bookmarks](/resources/bookmarks)
 

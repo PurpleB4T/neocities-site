@@ -1,0 +1,19 @@
+{
+  "name": "neocities-attempt-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "lunacytie",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  },
+  "dependencies": {
+    "html-minifier-terser": "^7.2.0",
+    "tippy.js": "^6.3.7"
+  }
+}

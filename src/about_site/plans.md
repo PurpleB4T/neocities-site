@@ -11,12 +11,12 @@ The site is super bare at the moment, so I plan do change a lot of things.\
 I really rushed to have something, so my perfectionism wouldn'T prevent me from ever finishing anything.\
 Better something than nothing!
 
-- tweaks
-	-  images
-    -  decorations
-    - header
+- ~~tweaks~~
+	-  ~~images~~
+    -  ~~decorations~~
+    - ~~header~~
 -  media log
--  neighbours/ other sites page
+-  ~~neighbours/ other sites page~~
 -  TTRPG page
 -  OC Wiki
    -  World page

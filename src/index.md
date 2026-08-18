@@ -17,6 +17,21 @@ Feel free to look around and leave comments!\
 I would love to find some neighbours, so if you're interested sign my [guestbook](https://lunacytie.atabook.org/) with your site linked! 
 
 </div>
+<div class="section-container">
+
+# Update - 2026-08-03
+Remember how I said my main goal would be a blog?\
+*YEAH THAT WAS A LIE*
+
+Well, instead I made [a gallery](/art/gallery) (which took longer than expected, work and general social obligations got in the way) with the help of a friend (bless him, he actually works in IT and knows what he is doing) and [this tutorial](https://geoledgy.neocities.org/blog/2026/2026-01-14) by [Geoledgy](https://geoledgy.neocities.org/). 
+
+There still is a lot I need to figure out to fully get to a point of a nice gallery but it works for the most part (I hate styling lists...).\
+I uploaded some ref sheets I made for **Artfight** this year and hope to upload some more in the following updates!
+
+Also haven't fixed the comments yet but... しょうがない oder so...
+
+
+</div>
 
 <div class="section-container">
 
@@ -40,12 +55,12 @@ Also, the last month has been hell in terms of workload at my job, and so I real
 I also joined [Flight Rising](https://www1.flightrising.com/clan-profile/761496) in June and have been checking in daily since. I wasn't sure if I'd enjoy it at first but now I'm fully sold.
 
 Otherwise I started doing more solo-play for TTRPGs, both in Daggerheart and a weird, very basic version of Cortex which I'm adding new rules and mechanics to as I play (I really only played like 3 1/2 sessions though).\
-I also joined a Daggerheart campaign a friend is running, where I play a Druid.\ 
+I also joined a Daggerheart campaign a friend is running, where I play a Druid.
 
 
 </div>
 
-
+<!--
 <div class="section-container">
 
 ## Update 2026-06-04
@@ -84,3 +99,4 @@ I'm trying to steadily chip away at it again, making smaller goals and slowly ex
 I am working a rather exhausting job, so updates might be slow, but that is okay! 
 
 </div>
+-->

@@ -102,7 +102,7 @@ i {
 strong {
     font-weight: bold;
     color: var(--text-accent);
-}
+    font-style: bold;}
 em {
     font-style: italic;
     color: var(--link-color);
@@ -127,7 +127,7 @@ main li::before {
   display: inline-block;
   width: 1em;
   height: 1em;
-  background-image: url('https://file.garden/aiPRUubAgXvOAB-W/Profile/star_potion.png');
+  background-image: url('https://file.garden/aiPRUubAgXvOAB-W/page%20assets/star.gif');
   background-size: contain;
   background-repeat: no-repeat;
   padding-right: 0.5em;
@@ -632,9 +632,11 @@ main h6 {
   visibility: hidden;
   width: fit-content;
   background-color: var(--content-background-color);
+  border-color: var(--text-accent);
+  border: var(--border);
   color:var(--text-color);
   text-align: center;
-  padding: 5px 0;
+  padding: 5px;
   border-radius: 6px;
 
   /* Position the tooltip text */
@@ -737,3 +739,126 @@ textarea{
     padding: var(--padding);
     margin-bottom: var(--padding);
   }
+
+  /* GALLERY STYLE */
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-image{
+    margin:5px;
+    margin:5px;
+    max-width: 400px;
+    max-height: 600px;
+    background-color: var(--transparent-background);
+    border-radius: 5px;
+  }
+
+  /* GALLERY HEADER */
+
+  .gallery-header{
+    text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--transparent-background);
+    padding: 10px;
+    border-radius: var(--round-borders);
+    border: var(--border);
+  }
+
+
+  .tags{
+    padding: 0;
+    margin: 0;
+    max-width: 200px;
+    display: inline-block;
+    justify-content: space-between;
+
+  }
+
+  .tags li, .gal-nav li {
+  text-align: center;
+  font-size: 0.75em;
+  list-style-type: "#";
+  margin: 1px;
+  margin-top: 2.5px;
+  padding: 15px 10px;
+  background-color: var(--content-background-color);
+  border-radius: var(--round-borders);
+  text-transform: uppercase;
+
+}
+
+.tags summary, .gal-nav summary {
+  text-transform: uppercase;
+  font-weight: bolder;
+  background-color: var(--text-color);
+  color: var(--content-background-color);
+  padding: 0.5vh;
+  padding-right: 1.75vh;
+  padding-left: 1.75vh;
+  margin: 2px;
+  max-width: fit-content;
+  border-radius: var(--round-borders);
+}
+
+  .tags li::before, .gal-nav li::before{
+    background-image: none;
+    padding-left: 0;
+    display: none;
+    
+  }
+
+  .gal-nav{
+    border-radius: var(--round-borders);
+    border: var(--border);
+    background-color: var(--transparent-background);
+    float: right;
+    width: 25%;
+  }
+
+  .nav-container{
+    clear: both; /* this is a way to clear all the properties set by the parent container, in this case the .gal-nav */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+  }
+
+  .gal-nav-header{
+    clear: both;
+    color: var(--content-background-color);
+    background-color: var(--link-color);
+    text-align: center;
+    border-top-left-radius: var(--round-borders);
+    border-top-right-radius: var(--round-borders);
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+  }
+
+  /* GALLERY HEADER */
+
+  .gallery-test-header{
+    text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--transparent-background);
+    padding: 10px;
+    border-radius: var(--round-borders);
+    border-bottom: var(--border);
+  }
+
+  /* BUTTONS */
+
+button {
+    background-color: var(--transparent-background);
+    color: var(--link-color);
+    border: var(--border);
+    border-radius: var(--round-borders);
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+}

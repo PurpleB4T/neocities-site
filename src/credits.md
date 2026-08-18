@@ -7,13 +7,15 @@ description: Credits page
 
 <div class="section-container">
 
-# {{ Credits }}
+# {{ title }}
 
 ## Website/ Software details
 - site made with [11ty](https://www.11ty.dev/) 
     - primarily following the tutorials by [Petrapixel](https://petrapixel.,neocities.org/coding/eleventy-tutorial#data), [renkotsuban](https://renkotsuban.com/posts/2023-11-15-Migrating-to-Eleventy.html#create-the-.eleventy.js-file) and [afellowu](https://afellowu.neocities.org/blog/11ty-github-and-neocities)
 - using Github and [Deploy to Neocities](https://github.com/marketplace/actions/deploy-to-neocities) for pushing 
 - using [Obsidian](https://obsidian.md/) to plan and prewrite Markdown files
+- gallery made using [Geoledgy](https://geoledgy.neocities.org/)'s [tutorial](https://geoledgy.neocities.org/blog/2026/2026-01-14)
+- a lot of tech support from my <span class="tooltip">best friend <span class="tooltiptext">for visuals, imagine Lestat, but shorter hair and no sixpack and very 2d</span></span>, who actually is a software dev
 
 ## Widgets/ Code Snippets
 - [Stardew Valley TV Widget](https://caminus.quest/codezone) by **caminus**
@@ -28,5 +30,5 @@ description: Credits page
   - headings: [SF Pixelate](https://www.cdnfonts.com/sf-pixelate.font)
   - main text: Courir New, monospace
 - [Moonlight-pendent13 Star Potion](https://www.deviantart.com/moonlight-pendent13/art/Star-Potion-586207079) for lists 
-
+- [Korajora Star Pixel](https://www.deviantart.com/korajora/art/Star-600475493) for lists 
 </div>

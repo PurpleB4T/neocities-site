@@ -1,0 +1,18 @@
+<div id="pagination">
+        <div id="previous">
+    {% if previousPost %}
+        <a href="{{ previousPost.url }}"> ← Previous</a>
+    {% endif %}
+    </div>
+    
+    <div id="back"><a href="/art/gallery.html">Back to main</a>
+    </div>
+
+    <div id="next">
+{% if nextPost %}
+        <a href="{{ nextPost.url }}">Next →</a>
+    {% endif %}
+    </div>
+
+
+</div>

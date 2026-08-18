@@ -61,7 +61,9 @@ At the moment there isn't much... but totally feel free to add me to your site a
 <div class="neighbours-container">
 <span style="text-align: center;">People I have traded buttons with, follow mutually etc.</span>
 
-<a href="https://zhongvie.neocities.org/"><img src="https://file.garden/Zq0xOX6Iv3i3b1te/Neocities/sylvieButton.gif" alt="zhongvie button" loading="lazy"></a></div>
+<a href="https://zhongvie.neocities.org/"><img src="https://file.garden/Zq0xOX6Iv3i3b1te/Neocities/sylvieButton.gif" alt="zhongvie button" loading="lazy"></a>
+<a href="https://catwraith.com/" title="catwraith!"><img src="https://catwraith.com/img/buttons/catwraith.png" loading="lazy" alt="catwraith button"></a>
+</div>
 </div>
 
 </div>

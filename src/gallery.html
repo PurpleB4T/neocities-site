@@ -1,0 +1,112 @@
+---
+layout: layout/base.njk
+permalink: art/gallery.html
+title: Art Gallery
+description: Gallery Page
+
+
+---
+
+<div class="section-container">
+
+
+    <div class="gallery-header">
+
+        <h1>
+            {{ title }}
+        </h1>
+    </div>
+
+
+
+    <div class="gal-nav">
+        <h3 class="gal-nav-header">NAVIGATION</h3>
+        <div class="nav-container">
+
+            {% for category, values in collections.artTags %}
+
+                <details>
+                 <summary>{{ category }}</summary>
+
+              <ul class="tags">
+      
+      {% for value in values %}
+        <li class="tags"> <a href="/art/tagged/{{category| slugify }}/{{value | slugify }}"> {{ value }}</a></li>
+      {% endfor %}
+    </ul>
+  </details>
+
+{% endfor %}
+          <!--- OLD TAGGING ATTEMPT
+
+        {% set allTags = [] %}
+
+            {% for post in collections.art %}
+                {% for tag in post.data.tags %}
+               {% if tag not in allTags %}
+                 {% set allTags = allTags.concat(tag) %}
+               {% endif %}
+             {% endfor %}
+            {% endfor %}
+
+        <ul class="tags">
+            {% for tag in allTags | exclude("art") %}
+
+              <li class="tags">
+                <a href="/art/tagged/{{tag | slugify }}">{{ tag }}</a>
+              </li>
+         {% endfor %}
+        </ul>
+        -->
+        </div>
+    </div>
+    <!-- Where images go -->
+
+<div class="gallery">
+    {% for post in collections.art | reverse %}
+    <a href="{{ post.url }}"><img src="{{ post.data.thumbnail }}" loading="lazy"  class="gallery-image"></a> {{ post.data.datestring }}
+    {% endfor %}
+</div>
+
+</div>
+
+<!----
+<div>
+    <p>
+    hi Im taking over 😈
+
+    this is my test div im allowed to edit this
+
+   
+    </p>
+
+    test
+
+
+    This creates the nested tag list, to replicate this with another category
+    - copy the below part
+    - change the querried collection: from "collections.artTags" to a different name
+    - change linking
+   {% for category, values in collections.artTags %}
+
+  <details>
+    <summary>{{ category }}</summary>
+
+    <ul>
+      
+      {% for value in values %}
+        <li> <a href="/art/tagged/{{category| slugify }}/{{value | slugify }}"> {{ value }}</a></li>
+      {% endfor %}
+    </ul>
+  </details>
+
+{% endfor %}
+
+
+</div>
+
+-->
+
+<div class="section-container">
+  This is where comments would be if they worked... I haven't fixed them yet...
+</div>

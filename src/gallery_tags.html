@@ -1,0 +1,41 @@
+---
+pagination:
+    data: collections
+    size: 1
+    alias: tag
+    addAllPagesToCollections: true
+    filter:
+        - art
+layout: layout/base.njk
+permalink: "/art/tagged/{{ tag }}/index.html"
+eleventyComputed:
+    title: Art tagged with "{{ tag }}"
+---
+<div class="section-container">
+    
+        <div id="pagination">
+
+        <div id="back">
+            <a href="/art/gallery.html">Back to main</a>
+        </div>
+
+    <div class="gallery-header">
+
+        <h1>
+            {{ title }}
+        </h1>
+    </div>
+
+    </div>
+
+    <!-- Where images go -->
+    
+    <div class="gallery">
+        <!-- Images displayed here -->
+        {% for post in collections[tag] | reverse %}
+        <a href="{{ post.url }}" ><img src="{{ post.data.thumbnail }}" loading="lazy" class="gallery-image"/></a>
+        {% endfor %}
+
+    </div>
+
+</div>

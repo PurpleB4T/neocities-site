@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Setting character encoding and viewport size. Do not remove. -->
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FavIcon-->
+     <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- CSS:-->
+     <link href="/styles/post.css" rel="stylesheet"/>
+
+    <!-- Title of the Page -->
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+    <a href="#content" id="skip-to-content-link">Skip to content</a>
+
+    <div class="layout">    
+
+        <!-- =============================================== -->
+      <!-- HEADER -->
+      <!-- =============================================== -->
+
+      <header>
+
+        <div class="header-content">
+            <div class="header-title"><a href="/"><image src="https://file.garden/aiPRUubAgXvOAB-W/page%20assets/Logo.png" style="width: 400px; height: auto;"></a></div>
+
+        </div>
+      </header>
+
+        <!-- =============================================== -->
+      <!-- LEFT SIDEBAR -->
+      <!-- =============================================== -->   
+       
+      <aside class="left-sidebar">
+
+        <!-- NAVIGATION -->
+        <nav>{% include "partials/navbar.njk" %}</nav>
+
+        <div class="sidebar-section">
+            <!-- USE PARTIALS TO INCLUDE MORE CONTENT IN THE LEFT SIDEBAR-->
+            {% include "left_sidebar/main-left_sidebar.njk" %}
+        </div>
+      </aside>
+
+        
+     <!-- =============================================== -->
+      <!-- RIGHT SIDEBAR -->
+      <!-- =============================================== -->
+
+      <aside class="right-sidebar">
+        <div class="sidebar-section">
+          <!-- USE PARTIALS TO INCLUDE MORE CONTENT IN THE RIGHT SIDEBAR-->
+          {% include "right_sidebar/right_sidebar_main.njk" %}
+          
+        </div>
+
+      </aside>
+
+    
+
+     
+
+
+      <main id="content"> <!--Do NOT remove the ID here-->
+
+        <!-- =======================================-->
+        <!-- MAIN CONTENT -->
+        <!-- =======================================-->
+         
+
+        {{ content | safe }}
+      <!-- 
+        <div class="section-container">
+          {% include "partials/Comment_Section.njk" %}
+        </div>
+        -->
+
+
+      </main>
+
+      <!-- ========================================-->
+      <!-- FOOTER -->
+      <!-- ========================================-->
+
+      <footer>
+        {% include "partials/footer.njk" %}
+      </footer>
+    </div>
+   
+
+
+  </body>
+</html>
