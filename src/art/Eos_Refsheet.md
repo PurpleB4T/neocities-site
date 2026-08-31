@@ -9,7 +9,7 @@ tags: ["character/Eos", "year/2026", "medium/digital", "type/refsheet"]
 
 <div class="post-image-container">
 
-![test image](https://file.garden/aiPRUubAgXvOAB-W/art/Eos_Ref_Sheet_Ver_3.webp "link")
+![Eos Refsheet](https://file.garden/aiPRUubAgXvOAB-W/art/Eos_Ref_Sheet_Ver_3.webp "Eos Refsheet")
 
 </div>
 

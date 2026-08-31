@@ -16,4 +16,7 @@ tags: ["character/Eos", "character/Ares", "year/2026", "medium/digital", "type/r
 <hr>
 <h3> Artist Comments </h3>
 
-There is a lot of anatomy mistakes in this... this was my first drawing after not doing anything properly for almost 2 months...
+There is a lot of anatomy mistakes in this... this was my first drawing after not doing anything properly for almost a month...
+
+I wanted to redraw an old piece I never finished, but some of the same issues that the original had carried over into this one.\
+I still "like it enough" to post it, but it's not my favourite work by any means. 

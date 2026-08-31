@@ -19,7 +19,16 @@ I would love to find some neighbours, so if you're interested sign my [guestbook
 </div>
 <div class="section-container">
 
-# Update - 2026-08-03
+# Update - 2026-08-31
+This update is technically super tiny and doesn't warrant a "news post" but I made a few small changes and *added some tid bits here* and there so I want to talk about it.\
+Firstly, I updated the [plans](/about_site/plans) page a bit. I want to create a **news page** which will house these *update posts* as well as the *changelog*. I also added some basic formatting to show priorities of plans (!!).\
+I also updated the *previously uploaded artworks* to the [gallery](/art/gallery) by adding proper descriptions to them and added *some new stuff* as well! 
+
+That's it basically... cheers!
+</div>
+<div class="section-container">
+
+# Update - 2026-08-18
 Remember how I said my main goal would be a blog?\
 *YEAH THAT WAS A LIE*
 

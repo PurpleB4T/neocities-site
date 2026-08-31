@@ -9,11 +9,12 @@ tags: ["character/Eos", "year/2026", "medium/digital", "type/rendered"]
 
 <div class="post-image-container">
 
-![test image](https://file.garden/aiPRUubAgXvOAB-W/art/Pagedoll.webp "link")
+![Eos Pagedoll](https://file.garden/aiPRUubAgXvOAB-W/art/Pagedoll.webp "Eos Pagedoll")
 
 </div>
 
 <hr>
 <h3> Artist Comments </h3>
 
-Randomly drew this Eos and then turned him into a pagedoll.
+I really didn't draw a lot from mid April to mid June this year, until one day something posessed me and I drew him.\
+It was also right around the time I started properly working on this website again and so I turned him into a pagedoll!

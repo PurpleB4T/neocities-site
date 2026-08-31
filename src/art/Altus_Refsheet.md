@@ -9,7 +9,7 @@ tags: ["character/Altus", "year/2026", "medium/digital", "type/refsheet"]
 
 <div class="post-image-container">
 
-![test image](https://file.garden/aiPRUubAgXvOAB-W/art/Altus%20refsheet.webp "link")
+![Altus Refsheet](https://file.garden/aiPRUubAgXvOAB-W/art/Altus%20refsheet.webp "Altus Refsheet")
 
 </div>
 
@@ -18,4 +18,5 @@ tags: ["character/Altus", "year/2026", "medium/digital", "type/refsheet"]
 
 Refsheet of Altus I made for **Artfight 2026**.
 
-Some of the drawings in here are still from last year, since I really like them still. 
+The two fully rendered headshots of them I actually drew last year during artfight. I really liked them still (and was too lazy to redo them), so I added them to the updated refsheet.\
+Altus really is one of my fave character designs! They were designed in tandem with my friends character [Cygni Monoceros](https://artfight.net/character/7569436.cygni-monoceros), who is Altus' second half! 
